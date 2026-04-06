@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Documentação do SpendMate - Sistema de gestão financeira">
+  <title>SpendMate Docs</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-container">
+      <a href="/" class="logo">SpendMate Docs</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-container">
+      <h1>SpendMate</h1>
+      <p>Documentação Técnica do Sistema de Gestão Financeira</p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="main-content">
+      <aside class="sidebar">
+        <h3>Documentação</h3>
+        <ul>
+          <li><a href="./SISTEMA_DOCUMENTACAO.html">Sistema Completo</a></li>
+        </ul>
+
+        <h3>Visão Geral</h3>
+        <ul>
+          <li><a href="#stats">Estatísticas</a></li>
+          <li><a href="#deploy">Deploy</a></li>
+        </ul>
+      </aside>
+
+      <main class="content">
+        <h2>Bem-vindo</h2>
+        <p>
+          SpendMate é um sistema robusto e escalável para gestão financeira corporativa. 
+          Esta documentação técnica fornece informações detalhadas sobre a arquitetura, 
+          modelos de dados e funcionalidades do sistema.
+        </p>
+        <p>
+          A documentação foi <strong>gerada automaticamente</strong> a partir do código-fonte, 
+          garantindo consistência entre a documentação e a implementação real.
+        </p>
+
+        <h2 id="docs">📚 Documentação</h2>
+        <p>
+          Acesse a <a href="./SISTEMA_DOCUMENTACAO.html">documentação completa do sistema</a> para detalhes sobre:
+        </p>
+        <ul>
+          <li>Todas as models de dados</li>
+          <li>Associações e relacionamentos</li>
+          <li>Validações e callbacks</li>
+          <li>Scopes e métodos públicos</li>
+          <li>Controllers e funcionalidades</li>
+          <li>Services e jobs</li>
+        </ul>
+
+        <h2 id="deploy">🚀 Deploy no GitHub Pages</h2>
+        <p>
+          Este repositório está pronto para ser publicado no GitHub Pages.
+        </p>
+        <h3>Passos para publicar:</h3>
+        <ol>
+          <li>Acesse <strong>Settings > Pages</strong> no seu repositório</li>
+          <li>Selecione <strong>Deploy from a branch</strong></li>
+          <li>Escolha a branch principal (main/master)</li>
+          <li>Selecione a pasta <strong>/</strong> (raiz)</li>
+          <li>Clique em <strong>Save</strong></li>
+        </ol>
+        <p>
+          Seu site será publicado em <code>https://seu-usuario.github.io/coordenaup-documentation</code>
+        </p>
+
+        <h2>ℹ️ Sobre</h2>
+        <p>
+          <strong>Última atualização:</strong> {{ 'now' | date: '%d de %B de %Y' }}<br>
+          <strong>Fonte:</strong> Gerada automaticamente a partir do código-fonte do projeto
+        </p>
+      </main>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p>SpendMate © 2026 • Documentação Técnica</p>
+    </div>
+  </footer>
+</body>
+</html>

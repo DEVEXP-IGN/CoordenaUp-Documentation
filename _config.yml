@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CoordenaUp Documentation
-email: ""
-description: >-
-  Documentation site for the CoordenaUp project, published with GitHub Pages.
+title: SpendMate Docs
+email: contato@spendmate.com
+description: Documentacao tecnica do sistema SpendMate
 baseurl: "/CoordenaUp-Documentation"
 url: "https://devexp-ign.github.io"
-github_username: DEVEXP-IGN
+twitter_username: spendmate
+github_username: spendmate
 
 # Build settings
 theme: minima

@@ -1,0 +1,21 @@
+{% assign active_group = page.group | default: "tela-inicial" %}
+
+<aside class="sidebar">
+  {% for group in site.data.groups %}
+    <h3>
+      <a href="{{ group.url | relative_url }}" class="sidebar-title-link{% if active_group == group.key and page.url == group.url %} active{% endif %}">
+        {{ group.title }}
+      </a>
+    </h3>
+
+    {% if group.sections and group.sections.size > 0 %}
+      <ul>
+        {% for item in group.sections %}
+          <li>
+            <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+</aside>

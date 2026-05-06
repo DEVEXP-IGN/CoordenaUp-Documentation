@@ -1,56 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Documentação técnica completa do SpendMate">
-  <title>{{ page.title }} - SpendMate Docs</title>
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-</head>
-<body>
-  <div class="navbar">
-    <div class="navbar-container">
-      <a href="/" class="logo">SpendMate Docs</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Documentação técnica completa do SpendMate"
+    />
+    <title>{{ page.title }} - SpendMate Docs</title>
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="navbar-container">
+        <a href="{{ '/' | relative_url }}" class="logo">SpendMate Docs</a>
+      </div>
     </div>
-  </div>
 
-  <div class="hero">
-    <div class="hero-container">
-      <h1>SpendMate</h1>
-      <p>Documentação Técnica do Sistema de Gestão Financeira</p>
+    <div class="hero">
+      <div class="hero-container">
+        <h1>SpendMate</h1>
+        <p>Documentação Técnica do Sistema de Gestão Financeira</p>
+      </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="main-content">
-      <aside class="sidebar">
-        <h3>Seções</h3>
-        <ul>
-          <li><a href="/">← Voltar</a></li>
-          <li><a href="#o-sistema">O Sistema</a></li>
-          <li><a href="#models">Models</a></li>
-          <li><a href="#controllers">Controllers</a></li>
-        </ul>
+    <div class="container">
+      <div class="main-content">
+        {% include sidebar.html %}
 
-        <h3>Recursos</h3>
-        <ul>
-          <li><a href="#classes-base">Classes Base</a></li>
-          <li><a href="#concerns">Concerns</a></li>
-          <li><a href="#jobs">Jobs</a></li>
-        </ul>
-      </aside>
-
-      <main class="content">
-        {{ content }}
-      </main>
+        <main class="content">{{ content }}</main>
+      </div>
     </div>
-  </div>
 
-  <footer class="footer">
-    <div class="footer-container">
-      <p>SpendMate Docs • Última atualização: {{ 'now' | date: '%d de %B de %Y' }}</p>
-      <p>Documentação gerada automaticamente a partir do código-fonte</p>
-    </div>
-  </footer>
-</body>
+    <footer class="footer">
+      <div class="footer-container">
+        <p>
+          SpendMate Docs • Última atualização: {{ 'now' | date: '%d de %B de %Y'
+          }}
+        </p>
+      </div>
+    </footer>
+  </body>
 </html>

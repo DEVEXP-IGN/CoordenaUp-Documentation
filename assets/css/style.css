@@ -135,6 +135,19 @@ body {
   border-left-color: var(--accent);
 }
 
+.sidebar h3 .sidebar-title-link {
+  color: inherit;
+  display: inline;
+  padding: 0;
+  border-left: 0;
+}
+
+.sidebar h3 .sidebar-title-link:hover,
+.sidebar h3 .sidebar-title-link.active {
+  color: var(--accent);
+  border-left: 0;
+}
+
 .content {
   background: var(--bg-primary);
   border-radius: 12px;
@@ -171,6 +184,28 @@ body {
   color: var(--text-secondary);
   margin-bottom: 1rem;
   line-height: 1.8;
+}
+
+.content img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.content figcaption,
+.content .caption {
+  color: var(--text-tertiary);
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.section-links {
+  margin: 1.5rem 0 2rem;
 }
 
 .content ul,

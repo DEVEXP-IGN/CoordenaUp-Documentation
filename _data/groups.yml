@@ -1,0 +1,13 @@
+- key: tela-inicial
+  title: Tela Inicial
+  url: /
+  sections: []
+
+- key: usuarios
+  title: Usuários
+  url: /usuarios/
+  sections:
+    - title: Hierarquia de Funções e Permissões
+      url: /usuarios/hierarquia-de-funcoes-e-permissoes/
+    - title: Visualização
+      url: /usuarios/visualizacao/

@@ -12,6 +12,8 @@ O módulo de Usuários gerencia o acesso à plataforma CoordenaUP. Ele é respon
 ## Subseções
 
 <ul class="section-links">
+  <li><a href="{{ '/usuarios/listagem-de-usuarios/' | relative_url }}">Listagem de Usuários</a></li>
+  <li><a href="{{ '/usuarios/cadastro-edicao-usuario/' | relative_url }}">Cadastro e Edição de Usuário</a></li>
   <li><a href="{{ '/usuarios/hierarquia-de-funcoes-e-permissoes/' | relative_url }}">Hierarquia de Funções e Permissões</a></li>
   <li><a href="{{ '/usuarios/visualizacao/' | relative_url }}">Visualização</a></li>
 </ul>

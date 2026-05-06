@@ -7,6 +7,10 @@
   title: Usuários
   url: /usuarios/
   sections:
+    - title: Listagem de Usuários
+      url: /usuarios/listagem-de-usuarios/
+    - title: Cadastro e Edição de Usuário
+      url: /usuarios/cadastro-edicao-usuario/
     - title: Hierarquia de Funções e Permissões
       url: /usuarios/hierarquia-de-funcoes-e-permissoes/
     - title: Visualização

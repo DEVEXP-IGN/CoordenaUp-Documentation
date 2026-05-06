@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Documentacao SpendMate
+title: Documentação SpendMate
 ---
 
 ## 🚀 Começar

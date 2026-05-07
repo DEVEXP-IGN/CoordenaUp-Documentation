@@ -15,3 +15,50 @@
       url: /usuarios/hierarquia-de-funcoes-e-permissoes/
     - title: Visualização
       url: /usuarios/visualizacao/
+
+- key: contas-financeiras
+  title: Contas Financeiras
+  url: /contas-financeiras/
+  sections:
+    - title: Listagem de Contas Financeiras
+      url: /contas-financeiras/listagem-de-contas-financeiras/
+    - title: Cadastro e Edição de Conta Financeira
+      url: /contas-financeiras/cadastro-edicao-conta-financeira/
+    - title: Visualização de Conta Financeira
+      url: /contas-financeiras/visualizacao-conta-financeira/
+    - title: Natureza das Contas
+      url: /contas-financeiras/natureza-das-contas/
+
+- key: centros-de-custo
+  title: Centros de Custo
+  url: /centros-de-custo/
+  sections:
+    - title: Listagem de Centros de Custo
+      url: /centros-de-custo/listagem-de-centros-de-custo/
+    - title: Cadastro e Edição de Centro de Custo
+      url: /centros-de-custo/cadastro-edicao-centro-de-custo/
+    - title: Visualização de Centro de Custo
+      url: /centros-de-custo/visualizacao-centro-de-custo/
+    - title: Regra de Negócio
+      url: /centros-de-custo/regra-de-negocio/
+
+- key: projetos
+  title: Gestão de Projetos
+  url: /projetos/
+  sections:
+    - title: Listagem de Projetos
+      url: /projetos/listagem-de-projetos/
+    - title: Visualização, Cadastro e Edição de Projeto
+      url: /projetos/visualizacao-cadastro-edicao-projeto/
+    - title: Orçamento e Importação
+      url: /projetos/orcamento-e-importacao/
+    - title: Versionamento do Orçamento
+      url: /projetos/versionamento-do-orcamento/
+    - title: Alocação Orçamentária
+      url: /projetos/alocacao-orcamentaria/
+    - title: Processo de Alocação Manual
+      url: /projetos/processo-de-alocacao-manual/
+    - title: Auditoria com IA Generativa
+      url: /projetos/auditoria-com-ia-generativa/
+    - title: Exportação para Prestação de Contas
+      url: /projetos/exportacao-para-prestacao-de-contas/

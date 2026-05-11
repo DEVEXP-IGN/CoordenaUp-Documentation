@@ -3,6 +3,17 @@
   url: /
   sections: []
 
+- key: pessoas
+  title: Pessoas
+  url: /pessoas/
+  sections:
+    - title: Listagem de Pessoas
+      url: /pessoas/listagem-de-pessoas/
+    - title: Cadastro e Edição de Pessoa
+      url: /pessoas/cadastro-edicao-pessoa/
+    - title: Visualização de Pessoa
+      url: /pessoas/visualizacao-pessoa/
+
 - key: usuarios
   title: Usuários
   url: /usuarios/
@@ -41,6 +52,32 @@
       url: /centros-de-custo/visualizacao-centro-de-custo/
     - title: Regra de Negócio
       url: /centros-de-custo/regra-de-negocio/
+
+- key: transferencias
+  title: Transferências
+  url: /transferencias/
+  sections:
+    - title: Listagem de Transferências
+      url: /transferencias/listagem-de-transferencias/
+    - title: Cadastro e Edição de Transferência
+      url: /transferencias/cadastro-edicao-transferencia/
+    - title: Visualização de Transferência
+      url: /transferencias/visualizacao-transferencia/
+    - title: Regras de Negócio
+      url: /transferencias/regras-de-negocio/
+
+- key: despesas
+  title: Despesas
+  url: /despesas/
+  sections:
+    - title: Listagem de Despesas
+      url: /despesas/listagem-de-despesas/
+    - title: Cadastro e Edição de Despesa
+      url: /despesas/cadastro-edicao-despesa/
+    - title: Auditoria e Alocação
+      url: /despesas/auditoria-e-alocacao/
+    - title: Visualização de Despesa
+      url: /despesas/visualizacao-despesa/
 
 - key: projetos
   title: Gestão de Projetos

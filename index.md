@@ -12,9 +12,12 @@ Esta documentação reúne os fluxos funcionais do CoordenaUP, com páginas orga
 ## Módulos
 
 <ul class="section-links">
+  <li><a href="{{ '/pessoas/' | relative_url }}">Pessoas</a></li>
   <li><a href="{{ '/usuarios/' | relative_url }}">Usuários</a></li>
   <li><a href="{{ '/contas-financeiras/' | relative_url }}">Contas Financeiras</a></li>
   <li><a href="{{ '/centros-de-custo/' | relative_url }}">Centros de Custo</a></li>
+  <li><a href="{{ '/transferencias/' | relative_url }}">Transferências</a></li>
+  <li><a href="{{ '/despesas/' | relative_url }}">Despesas</a></li>
   <li><a href="{{ '/projetos/' | relative_url }}">Gestão de Projetos</a></li>
 </ul>
 

@@ -7,8 +7,7 @@ Repository containing the documentation for the CoordenaUp project.
 Run the site locally with:
 
 ```bash
-bundle install
-bundle exec jekyll serve
+make dev
 ```
 
 ## GitHub Pages

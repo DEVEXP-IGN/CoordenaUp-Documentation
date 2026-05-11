@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Documentação técnica completa do SpendMate"
+      content="{{ site.description }}"
     />
-    <title>{{ page.title }} - SpendMate Docs</title>
+    <title>{{ page.title }} - {{ site.title }}</title>
     <link
       rel="stylesheet"
       href="{{ '/assets/css/style.css' | relative_url }}"
@@ -16,14 +16,14 @@
   <body>
     <div class="navbar">
       <div class="navbar-container">
-        <a href="{{ '/' | relative_url }}" class="logo">SpendMate Docs</a>
+        <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
       </div>
     </div>
 
     <div class="hero">
       <div class="hero-container">
-        <h1>SpendMate</h1>
-        <p>Documentação Técnica do Sistema de Gestão Financeira</p>
+        <h1>CoordenaUP</h1>
+        <p>Documentação Técnica do Sistema</p>
       </div>
     </div>
 
@@ -38,7 +38,7 @@
     <footer class="footer">
       <div class="footer-container">
         <p>
-          SpendMate Docs • Última atualização: {{ 'now' | date: '%d de %B de %Y'
+          {{ site.title }} • Última atualização: {{ 'now' | date: '%d de %B de %Y'
           }}
         </p>
       </div>

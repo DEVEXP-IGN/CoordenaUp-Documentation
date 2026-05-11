@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SpendMate Docs
+title: CoordenaUP Docs
 email: contato@spendmate.com
-description: Documentação Técnica do Sistema SpendMate
+description: Documentação Técnica do CoordenaUP
 baseurl: "/CoordenaUp-Documentation"
 url: "https://devexp-ign.github.io"
 twitter_username: spendmate

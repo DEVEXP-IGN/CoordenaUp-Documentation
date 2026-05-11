@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+export PATH="$HOME/.gem/ruby/3.4.0/bin:$PATH"
+
+if ! command -v asdf >/dev/null 2>&1; then
+  echo "asdf is required because this project uses .tool-versions." >&2
+  exit 1
+fi
+
+asdf exec bundle check || asdf exec bundle install
+exec asdf exec bundle exec ruby -S jekyll serve "$@"

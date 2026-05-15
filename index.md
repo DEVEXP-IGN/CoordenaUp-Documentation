@@ -17,7 +17,10 @@ Esta documentação reúne os fluxos funcionais do CoordenaUP, com páginas orga
   <li><a href="{{ '/contas-financeiras/' | relative_url }}">Contas Financeiras</a></li>
   <li><a href="{{ '/centros-de-custo/' | relative_url }}">Centros de Custo</a></li>
   <li><a href="{{ '/transferencias/' | relative_url }}">Transferências</a></li>
+  <li><a href="{{ '/receitas/' | relative_url }}">Receitas</a></li>
   <li><a href="{{ '/despesas/' | relative_url }}">Despesas</a></li>
+  <li><a href="{{ '/anexos/' | relative_url }}">Anexos</a></li>
+  <li><a href="{{ '/folha-de-pagamentos/' | relative_url }}">Folha de Pagamentos</a></li>
   <li><a href="{{ '/projetos/' | relative_url }}">Gestão de Projetos</a></li>
 </ul>
 

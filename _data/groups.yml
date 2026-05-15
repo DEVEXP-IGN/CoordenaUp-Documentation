@@ -79,6 +79,47 @@
     - title: Visualização de Despesa
       url: /despesas/visualizacao-despesa/
 
+- key: receitas
+  title: Receitas
+  url: /receitas/
+  sections:
+    - title: Listagem de Receitas
+      url: /receitas/listagem-de-receitas/
+    - title: Cadastro e Edição de Receita
+      url: /receitas/cadastro-edicao-receita/
+    - title: Fluxo de Recebimento
+      url: /receitas/fluxo-de-recebimento/
+    - title: Visualização de Receita
+      url: /receitas/visualizacao-de-receita/
+
+- key: anexos
+  title: Anexos
+  url: /anexos/
+  sections:
+    - title: Listagem de Anexos
+      url: /anexos/listagem-de-anexos/
+    - title: Cadastro e Edição de Anexo
+      url: /anexos/cadastro-edicao-de-anexo/
+    - title: Visualização de Anexo
+      url: /anexos/visualizacao-de-anexo/
+    - title: Integração e Fluxo
+      url: /anexos/integracao-e-fluxo/
+
+- key: folha-de-pagamentos
+  title: Folha de Pagamentos
+  url: /folha-de-pagamentos/
+  sections:
+    - title: Funcionamento e Automação
+      url: /folha-de-pagamentos/funcionamento-e-automacao/
+    - title: Listagem de Folhas de Pagamento
+      url: /folha-de-pagamentos/listagem-de-folhas-de-pagamento/
+    - title: Visualização de Detalhes
+      url: /folha-de-pagamentos/visualizacao-de-detalhes/
+    - title: Integração com a Alocação Orçamentária
+      url: /folha-de-pagamentos/integracao-com-alocacao-orcamentaria/
+    - title: Fluxo de Operação
+      url: /folha-de-pagamentos/fluxo-de-operacao/
+
 - key: projetos
   title: Gestão de Projetos
   url: /projetos/

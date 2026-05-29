@@ -105,6 +105,52 @@
     - title: Integração e Fluxo
       url: /anexos/integracao-e-fluxo/
 
+- key: extratos
+  title: Extratos
+  url: /extratos/
+  sections:
+    - title: Funcionamento e Fontes de Dados
+      url: /extratos/funcionamento-e-fontes-de-dados/
+    - title: Listagem de Extratos
+      url: /extratos/listagem-de-extratos/
+    - title: Resumo e Totais
+      url: /extratos/resumo-e-totais/
+    - title: Detalhamento e Rastreabilidade
+      url: /extratos/detalhamento-e-rastreabilidade/
+
+- key: lembretes
+  title: Lembretes
+  url: /lembretes/
+  sections:
+    - title: Visualização Geral (Dashboard)
+      url: /lembretes/visualizacao-geral-dashboard/
+    - title: Sistema de Cores e Prioridades
+      url: /lembretes/sistema-de-cores-e-prioridades/
+    - title: Ações e Navegação
+      url: /lembretes/acoes-e-navegacao/
+
+- key: tipos-de-empresa
+  title: Tipos de Empresa
+  url: /tipos-de-empresa/
+  sections:
+    - title: Listagem de Tipos de Empresa
+      url: /tipos-de-empresa/listagem-de-tipos-de-empresa/
+    - title: Cadastro e Edição de Tipo de Empresa
+      url: /tipos-de-empresa/cadastro-edicao-tipo-de-empresa/
+    - title: Transferência de Tipo de Empresa para Exclusão
+      url: /tipos-de-empresa/transferencia-de-tipo-de-empresa-para-exclusao/
+
+- key: tipos-de-pessoa
+  title: Tipos de Pessoa
+  url: /tipos-de-pessoa/
+  sections:
+    - title: Listagem de Tipos de Pessoa
+      url: /tipos-de-pessoa/listagem-de-tipos-de-pessoa/
+    - title: Cadastro e Edição de Tipo de Pessoa
+      url: /tipos-de-pessoa/cadastro-edicao-tipo-de-pessoa/
+    - title: Transferência de Tipo de Pessoa para Exclusão
+      url: /tipos-de-pessoa/transferencia-de-tipo-de-pessoa-para-exclusao/
+
 - key: folha-de-pagamentos
   title: Folha de Pagamentos
   url: /folha-de-pagamentos/

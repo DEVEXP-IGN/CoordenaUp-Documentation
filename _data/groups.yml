@@ -151,6 +151,52 @@
     - title: Transferência de Tipo de Pessoa para Exclusão
       url: /tipos-de-pessoa/transferencia-de-tipo-de-pessoa-para-exclusao/
 
+- key: tipos-de-anexo
+  title: Tipos de Anexo
+  url: /tipos-de-anexo/
+  sections:
+    - title: Listagem de Tipos de Anexo
+      url: /tipos-de-anexo/listagem-de-tipos-de-anexo/
+    - title: Cadastro e Edição de Tipo de Anexo
+      url: /tipos-de-anexo/cadastro-edicao-tipo-de-anexo/
+
+- key: categorias-financeiras
+  title: Categorias Financeiras
+  url: /categorias-financeiras/
+  sections:
+    - title: Listagem de Categorias Financeiras
+      url: /categorias-financeiras/listagem-de-categorias-financeiras/
+    - title: Cadastro e Edição de Categoria Financeira
+      url: /categorias-financeiras/cadastro-edicao-categoria-financeira/
+    - title: Transferência de Categoria Financeira
+      url: /categorias-financeiras/transferencia-de-categoria-financeira/
+
+- key: unidades
+  title: Unidades de Pesquisa (UP)
+  url: /unidades/
+  sections:
+    - title: Listagem de Unidades
+      url: /unidades/listagem-de-unidades/
+    - title: Cadastro e Edição de Unidade
+      url: /unidades/cadastro-edicao-unidade/
+    - title: Visualização de Detalhes
+      url: /unidades/visualizacao-de-detalhes/
+    - title: Importância Estratégica
+      url: /unidades/importancia-estrategica/
+
+- key: empresas
+  title: Empresas
+  url: /empresas/
+  sections:
+    - title: Listagem de Empresas
+      url: /empresas/listagem-de-empresas/
+    - title: Cadastro e Edição de Empresa
+      url: /empresas/cadastro-edicao-empresa/
+    - title: Visualização de Empresa
+      url: /empresas/visualizacao-de-empresa/
+    - title: Contexto Operacional
+      url: /empresas/contexto-operacional/
+
 - key: folha-de-pagamentos
   title: Folha de Pagamentos
   url: /folha-de-pagamentos/

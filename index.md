@@ -20,6 +20,10 @@ Esta documentação reúne os fluxos funcionais do CoordenaUP, com páginas orga
   <li><a href="{{ '/receitas/' | relative_url }}">Receitas</a></li>
   <li><a href="{{ '/despesas/' | relative_url }}">Despesas</a></li>
   <li><a href="{{ '/anexos/' | relative_url }}">Anexos</a></li>
+  <li><a href="{{ '/tipos-de-anexo/' | relative_url }}">Tipos de Anexo</a></li>
+  <li><a href="{{ '/categorias-financeiras/' | relative_url }}">Categorias Financeiras</a></li>
+  <li><a href="{{ '/unidades/' | relative_url }}">Unidades de Pesquisa (UP)</a></li>
+  <li><a href="{{ '/empresas/' | relative_url }}">Empresas</a></li>
   <li><a href="{{ '/folha-de-pagamentos/' | relative_url }}">Folha de Pagamentos</a></li>
   <li><a href="{{ '/projetos/' | relative_url }}">Gestão de Projetos</a></li>
 </ul>
